@@ -13,4 +13,12 @@ ctest
 ./test/ExampleTests
 ```
 
-`--gtest_filter="*Test2"` works well with `./test/ExampleTests`, but no effect with `ctest`.
+Filtering tests
+
+`./test/ExampleTests --gtest_filter="*Test2"` 
+
+or `ctest -R "Test2"`.
+
+Display gtest color with ctest
+
+`GTEST_COLOR=1 ctest -V`
