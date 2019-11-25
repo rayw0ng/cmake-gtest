@@ -19,6 +19,7 @@ Filtering tests
 
 or `ctest -R "Test2"`.
 
-Display gtest color with ctest
+ctest has it's own colored output since version 3.14, for earlier versions to display gtest's colored output 
 
 `GTEST_COLOR=1 ctest -V`
+
